@@ -1,0 +1,65 @@
+
+.w-30 {
+  width: 30%;
+}
+.text-red {
+  color: red;
+}
+
+.cur-pointer {
+  cursor: pointer;
+}
+
+
+
+
+.shape {
+  width: 10rem;
+  height: 10rem;
+
+}
+.background .shape:first-child {
+background: linear-gradient(#1845ad, #23a2f6);
+top: -60px;
+left: -60px;
+}
+.background .shape:last-child {
+background: linear-gradient(to right, #ff512f, #f09819);
+bottom: -60px;
+right: -60px;
+}
+
+
+.form {
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+}
+
+input {
+  outline: none;
+  border: transparent 1px solid;
+  caret-color: white;
+  background-color: rgba(119, 119, 119, 0.33);
+  color: white;
+}
+input::placeholder {
+  color: #e5e5e5;
+  font-weight: lighter;
+}
+input:focus {
+  border-color: white;
+}
+
+.sign-up:hover {
+  text-decoration: underline !important;
+}
+
+/* HOME PAGE */
+
+nav {
+  background-color: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
+}
+

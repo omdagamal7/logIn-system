@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/media.css">
+  <title>Document</title>
+</head>
+<body class="bg-black">
+
+<section id="logIn">
+  <div class="container pt-5">
+
+    <div class="position-relative z-1 w-75 mx-auto">
+      <div class="background">
+        <div class="shape position-absolute rounded-circle"></div>
+        <div class="shape position-absolute rounded-circle"></div>
+      </div>
+      <div class="form form-groub text-center p-5 w-100 mt-5 rounded-4 ">
+    
+        <h1 class="mb-5 text-white">log in</h1>
+    
+        <label for="userEmailLogIn" class="d-block mb-3 text-white text-start w-75 mx-auto">Email</label>
+        <input id="userEmailLogIn" type="email" name="userEmail" placeholder="Enter your email" class="rounded p-2 w-75 mb-3">
+    
+        <label for="userPassLogIn" class="d-block mb-3 text-white text-start w-75 mx-auto">Password</label>
+        <input type="password" id="userPassLogIn" name="userPassword" placeholder="Enter your password" class="rounded p-2 w-75 mb-5">
+        <div id="invalid" class=" z-3 d-none">
+          <p class="text-danger">Invalid account</p>
+        </div>
+        <div class="w-75 mx-auto text-white mb-5">
+          <p>Don't have an account?  <a class="sign-up cur-pointer text-white text-decoration-none" id="signUpInLogInPage">Sign up</a></p>
+        </div>
+        <p id="invalid-message" class="text-red"></p>
+        <a id="btnLogIn" class="w-75 btn btn-light fw-bold p-2">Log in</a>
+      </div>
+    </div>
+    
+    
+    
+      </div>
+</section>
+
+
+
+  <section id="signUp" class="d-none">
+    <div class="container pt-5">
+
+      <div class="position-relative z-1 w-75 mx-auto">
+        <div class="background">
+          <div class="shape position-absolute rounded-circle"></div>
+          <div class="shape position-absolute rounded-circle"></div>
+        </div>
+        <div class="form form-groub text-center p-5 w-100 mt-5 rounded-4 ">
+      
+          <h1 class="mb-5 text-white">Sign up</h1>
+  
+          <label for="userNameSignUp" class="d-block mb-3 text-white text-start w-75 mx-auto">User name</label>
+          <input id="userNameSignUp" type="text" name="userName" placeholder="Enter your name" class="rounded p-2 w-75 mb-3">
+  
+          <label for="userEmailSignUp" class="d-block mb-3 text-white text-start w-75 mx-auto">Email</label>
+          <input id="userEmailSignUp" type="email" name="userEmail" placeholder="Enter your email" class="rounded p-2 w-75 mb-3">
+  
+          <label for="userPassSignUp" class="d-block mb-3 text-white text-start w-75 mx-auto">Password</label>
+          <input id="userPassSignUp" type="password" id="userPass" name="userPassword" placeholder="Enter your password" class="rounded p-2 w-75 mb-5">
+          <div class="w-75 mx-auto text-white mt-5">
+            <p>you have an account?  <a href="../index.html" class="sign-up text-white text-decoration-none">Log In<a/></p>
+          </div>
+          <p id="invalid-message" class="text-red"></p>
+          <button id="btnSignUp" class="w-75 btn btn-light fw-bold p-2 border-0">sign-up</button>
+    
+        </div>
+      </div>
+        </div>
+  </section>
+  <script src="JS/main.js"></script>
+</body>
+</html>
