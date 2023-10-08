@@ -156,4 +156,6 @@ userPass.addEventListener("input", ()=> {
 
 if (localStorage.getItem('userName')) {
   location.href = "./html/home.html"
-} 
+} else {
+  location.href != './html/home.html'
+}
